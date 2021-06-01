@@ -2,13 +2,15 @@
 
 function startCounting()
 {
-	
-	for(var i = 0; i < 100; i++)
+    
+// for (initialExpression;  conditional;    incrementalExpression) 
+//  for (Start Here;        TRUE or FALSE); increment this much)
+    for (var i = 0;             i <= 100;        i++)
 	{
-		console.log(i);
-	}
-	
-	return i;
-}
+            console.log(i);
+        }
+        
+        return i;
+    }
 
 startCounting();
